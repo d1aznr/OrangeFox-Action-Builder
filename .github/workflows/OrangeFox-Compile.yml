@@ -20,7 +20,7 @@ on:
       DEVICE_TREE:
         description: 'OrangeFox Device Tree'
         required: true
-        default: 'https://github.com/d1aznr/twrp_device_oplus_sm8250_ac'
+        default: 'https://github.com/d1aznr/twrp_device_oppo_OP4EC1'
       DEVICE_TREE_BRANCH:
         description: 'OrangeFox Device Tree Branch'
         required: true
@@ -28,11 +28,11 @@ on:
       DEVICE_PATH:
         description: 'Specify your Device Path'
         required: true
-        default: 'device/oplus/sm8250_ac'
+        default: 'device/oppo/OP4EC1'
       DEVICE_NAME:
         description: 'Specify your Device Codename'
         required: true
-        default: 'sm8250_ac'
+        default: 'OP4EC1'
       BUILD_TARGET:
         description: 'Specify your Build Target'
         required: true
